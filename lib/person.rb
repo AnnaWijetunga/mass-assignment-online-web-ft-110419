@@ -9,6 +9,6 @@ class Person
 end
 
 # initialize takes in some unspecified attributes object
-# then, wrist_sizee iterate over each key/value pair in the attributes hash
+# then, iterate over each key/value pair in the attributes hash
 # the name of the key becomes the name of a setter method and the value associated with the key is the name of the value you want to pass to that method
 # the ruby .send method calls the method name that is the key’s name, with an argument of the value
